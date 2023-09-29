@@ -1,5 +1,5 @@
 {
-	"id": "3343ffa88e7df3ce2c4ac95f90a91df9",
+	"id": "532cb01928b86430c31a7702330c53de",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.18",
 	"solcLongVersion": "0.8.18+commit.87f61d96",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"AlphaFolder/globalvariable.sol": {
-				"content": "// SPDX-License-Identifier: GPL-3.0\r\n// There is no concept of none and null in solidity. jo default value hoti hain uss data type ki woh store ho jati hain\r\n// in that data type if it is not declared prior.\r\n"
+				"content": "\r\n// There is no concept of none and null in solidity. jo default value hoti hain uss data type ki woh store ho jati hain\r\n// in that data type if it is not declared prior.\r\n\r\n\r\n\r\n\r\n\r\n// SPDX-License-Identifier: GPL-3.0// SPDX-License-Identifier: GPL-3.0"
 			}
 		},
 		"settings": {
@@ -41,6 +41,19 @@
 		"errors": [
 			{
 				"component": "general",
+				"errorCode": "1878",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> AlphaFolder/globalvariable.sol\n\n",
+				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "AlphaFolder/globalvariable.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			},
+			{
+				"component": "general",
 				"errorCode": "3420",
 				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.18;\"\n--> AlphaFolder/globalvariable.sol\n\n",
 				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.18;\"",
@@ -59,10 +72,9 @@
 					"absolutePath": "AlphaFolder/globalvariable.sol",
 					"exportedSymbols": {},
 					"id": 1,
-					"license": "GPL-3.0",
 					"nodeType": "SourceUnit",
 					"nodes": [],
-					"src": "209:0:0"
+					"src": "254:0:0"
 				},
 				"id": 0
 			}
