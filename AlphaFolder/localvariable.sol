@@ -1,0 +1,4 @@
+/*  Local variable function ki body mein store hoti hain. yeh stack mein store hote hain.
+
+
+*/
