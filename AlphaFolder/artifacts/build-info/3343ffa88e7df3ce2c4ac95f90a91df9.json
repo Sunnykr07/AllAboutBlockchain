@@ -1,5 +1,5 @@
 {
-	"id": "23bce9162cfc68d34beb450d1392cd63",
+	"id": "3343ffa88e7df3ce2c4ac95f90a91df9",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.18",
 	"solcLongVersion": "0.8.18+commit.87f61d96",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"AlphaFolder/globalvariable.sol": {
-				"content": "// SPDX-License-Identifier: GPL-3.0\r\n// There is no concept of none and null in solidity. jo default value hoti hain uss data type ki woh store ho jati hain\r\n// in that data type if it is not declared prior."
+				"content": "// SPDX-License-Identifier: GPL-3.0\r\n// There is no concept of none and null in solidity. jo default value hoti hain uss data type ki woh store ho jati hain\r\n// in that data type if it is not declared prior.\r\n"
 			}
 		},
 		"settings": {
@@ -62,7 +62,7 @@
 					"license": "GPL-3.0",
 					"nodeType": "SourceUnit",
 					"nodes": [],
-					"src": "207:0:0"
+					"src": "209:0:0"
 				},
 				"id": 0
 			}
