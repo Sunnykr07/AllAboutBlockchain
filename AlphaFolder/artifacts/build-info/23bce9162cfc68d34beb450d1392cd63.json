@@ -1,0 +1,71 @@
+{
+	"id": "23bce9162cfc68d34beb450d1392cd63",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.18",
+	"solcLongVersion": "0.8.18+commit.87f61d96",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"AlphaFolder/globalvariable.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0\r\n// There is no concept of none and null in solidity. jo default value hoti hain uss data type ki woh store ho jati hain\r\n// in that data type if it is not declared prior."
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.18;\"\n--> AlphaFolder/globalvariable.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.18;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "AlphaFolder/globalvariable.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"AlphaFolder/globalvariable.sol": {
+				"ast": {
+					"absolutePath": "AlphaFolder/globalvariable.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "GPL-3.0",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "207:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
